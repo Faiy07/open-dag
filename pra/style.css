@@ -139,3 +139,92 @@ body {
     margin-top: 2rem;
 }
 
+/* Media Queries */
+
+/* Tablets (portrait and landscape) */
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+    }
+
+    .nav2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav2 a {
+        margin: 5px 0;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .courses .course-item {
+        min-width: 45%;
+        margin: 0.5rem;
+    }
+}
+
+/* Mobile Phones (landscape and smaller) */
+@media (max-width: 768px) {
+    .hero {
+        height: 50vh;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .nav1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .courses .course-item {
+        min-width: 100%;
+        margin: 0.5rem 0;
+    }
+}
+
+/* Small Mobile Phones */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .hero .btn {
+        font-size: 1rem;
+        padding: 0.6rem 1rem;
+    }
+
+    .courses .course-item {
+        padding: 1rem;
+        margin: 0.5rem 0;
+    }
+
+    .footer {
+        padding: 1rem 0;
+    }
+}
